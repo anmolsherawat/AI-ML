@@ -1,0 +1,45 @@
+{
+  "Linear Regression": {
+    "metrics": {
+      "MAE": 58632.05,
+      "RMSE": 74996.05,
+      "R2": 0.0621
+    },
+    "feature_importance": {
+      "Area": 313.0459,
+      "Item": 18169.1639,
+      "Year": 6200.9604,
+      "average_rain_fall_mm_per_year": 588.9333,
+      "pesticides_tonnes": 6078.0926,
+      "avg_temp": 6855.4272
+    },
+    "type": "regression"
+  },
+  "Decision Tree": {
+    "metrics": {
+      "MAE": 4019.52,
+      "RMSE": 11784.21,
+      "R2": 0.9768
+    },
+    "feature_importance": {
+      "Area": 0.0515,
+      "Item": 0.6256,
+      "Year": 0.029,
+      "average_rain_fall_mm_per_year": 0.1116,
+      "pesticides_tonnes": 0.1134,
+      "avg_temp": 0.0689
+    },
+    "type": "regression"
+  },
+  "Logistic Regression": {
+    "metrics": {
+      "Accuracy": 0.4306
+    },
+    "feature_importance": null,
+    "type": "classification",
+    "thresholds": {
+      "q1": 24828.0,
+      "q2": 76240.02
+    }
+  }
+}
