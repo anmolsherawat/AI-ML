@@ -1,5 +1,3 @@
-src/*
-!src/.gitkeep
 venv/
 __pycache__/
 *.pyc
