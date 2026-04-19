@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment Variables
+.env
+.env.local
+backend/.env
+
+# Machine Learning Artifacts
+models/*.pkl
+models/*.json
+
+# Data
+data/*.csv
+
+# Streamlit
+.streamlit/
+
+# IDE / Editor
+.trae/
+.vscode/
+.idea/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
