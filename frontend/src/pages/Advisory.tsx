@@ -99,7 +99,8 @@ export default function Advisory() {
 
       console.log('Sending Advisory request data:', requestData);
 
-      const response = await fetch('http://localhost:8000/api/advisory', {
+      const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${API_URL}/api/advisory`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
